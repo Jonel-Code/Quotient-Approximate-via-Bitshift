@@ -2,6 +2,8 @@
 
 TDLR; I don't know if there is already an existing algorithm somewhere, the aim of this script is to gain knowledge and basic experience on manipulating binary and bits.
 
+Use this command to run the script: `node approx_quotient_via_bitshift.js` or `npm start`
+
 Getting the Approximate Quotient of a certain number using "Bit-shifting" is faster that simple iteration. It is already proven that you can get the approximate value of a number divided by 2 by converting the value to binary and shifting the bits to the right by 1. You can also expand this rule to any number divided by any "power of 2 number" e.g 2, 4, 8 etc. by shifting the bits to the right by 1, 2, 3 etc. respectively. But the approximation is only limited to divisors that are  "power of 2 number". \
 Thus to solve this limitation, I come up with an algorithm that will able to handle any divisor value. 
 
