@@ -1,10 +1,11 @@
 {
   "name": "approx-quotient-via-bitshift",
   "version": "1.0.0",
-  "description": "TDLR; I don't know if this formula already exists somewhere",
+  "description": "TDLR; I don't know if there is already an existing algorithm somewhere, the aim of this script is to gain knowledge and basic experience on manipulating binary and bits.",
   "main": "approx_quotient_via_bitshift.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node approx_quotient_via_bitshift.js"
   },
   "author": "",
   "license": "ISC"
