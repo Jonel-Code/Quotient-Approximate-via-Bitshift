@@ -1,6 +1,6 @@
 # Approximate Quotient bitshift formula
 
-TDLR; I don't know if this formula already exists somewhere 
+TDLR; I don't know if there is already an existing algorithm somewhere, the aim of this script is to gain knowledge and basic experience on manipulating binary and bits.
 
 it is already proven that you can get the approximate value of a number divided by 2 by converting the value to binary and shifting the bits to the right by 1. You can also expand this rule to any base value e.g divide by 2, 4, 8 etc. by shifting the bits to the right by 1, 2, 3 etc. respectively. This rule is only limited to whole base values and cannot be used to get approx of for example 3, 5, 6, 7 etc. \
 Thus to solve this limitation, I come up with an algorithm that will able to handle any divisor value. \
