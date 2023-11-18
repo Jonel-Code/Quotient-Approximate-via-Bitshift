@@ -1,0 +1,11 @@
+{
+  "name": "approx-quotient-via-bitshift",
+  "version": "1.0.0",
+  "description": "TDLR; I don't know if this formula already exists somewhere",
+  "main": "approx_quotient_via_bitshift.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
